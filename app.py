@@ -5,6 +5,8 @@ import seaborn as sns
 from collections import Counter
 import streamlit as st
 import io
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import os
 
